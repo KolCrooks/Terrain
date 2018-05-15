@@ -13,6 +13,7 @@ function setup(){
     createCanvas(1200, 800, WEBGL);
     terrainNoiseMap = new SimplexNoise() //CreateNoiseMap
     maps = genTerrain(mapsize)
+    frameRate(55)
 }
 
 var rotated = -170
